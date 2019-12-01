@@ -18,17 +18,17 @@ brew bundle
 pecl install memcached imagick
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet
+composer global require laravel/installer laravel/valet
 
 # Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
+valet install
 
-# Create a Projects directory
+# Create a _sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir -p $HOME/Projects/_sites
 
 # Park Laravel Valet
-cd $HOME/Projects/_sites && $HOME/.composer/vendor/bin/valet park && cd $HOME
+cd $HOME/Projects/_sites && valet park && cd $HOME
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the Projects/_resources/dotfiles directory
 rm -rf $HOME/.zshrc
