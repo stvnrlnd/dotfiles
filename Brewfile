@@ -41,6 +41,7 @@ cask 'tor-browser'
 cask 'transmission'
 cask 'insomnia'
 cask 'docker'
+cask 'zeplin'
 cask 'visual-studio-code'
 cask 'sequel-pro'
 cask 'discord'
@@ -65,3 +66,4 @@ mas 'Keynote', id: 409183694
 mas 'Spark', id: 1176895641
 mas 'iBooks Author', id: 490152466
 mas 'Microsoft To Do', id: 1274495053
+mas 'Microsoft OneNote', id: 784801555
