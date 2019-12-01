@@ -18,7 +18,7 @@ brew bundle
 pecl install memcached imagick
 
 # Install global Composer packages
-composer global require laravel/installer laravel/valet
+composer global require laravel/installer laravel/valet squizlabs/php_codesniffer phpunit/phpunit
 
 # Install Laravel Valet
 valet install
