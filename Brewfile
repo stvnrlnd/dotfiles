@@ -46,6 +46,7 @@ cask 'sequel-pro'
 cask 'discord'
 cask 'slack'
 cask 'gpg-suite'
+cask 'google-backup-and-sync'
 
 # Quicklook
 cask 'qlcolorcode'
