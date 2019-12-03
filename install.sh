@@ -28,7 +28,7 @@ valet install
 mkdir -p $HOME/Projects/_sites
 
 # Park Laravel Valet
-cd $HOME/Projects/_sites && valet park && cd $HOME
+cd $HOME/Projects/_sites && valet park
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the Projects/_resources/dotfiles directory
 rm -rf $HOME/.zshrc
@@ -43,4 +43,4 @@ ln -s $HOME/Projects/_resources/dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+cd $HOME/Projects/_resources/dotfiles && source .macos

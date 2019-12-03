@@ -1,3 +1,4 @@
-[submodule "themes"]
-	path = themes
+
+[submodule "/Users/stvnrlnd/Projects/_resources/dotfiles/themes/spaceship-prompt"]
+	path = /Users/stvnrlnd/Projects/_resources/dotfiles/themes/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt.git

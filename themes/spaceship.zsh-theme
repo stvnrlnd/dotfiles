@@ -1,0 +1,1 @@
+/Users/stvnrlnd/Projects/_resources/dotfiles/themes/spaceship-prompt/spaceship.zsh-theme
