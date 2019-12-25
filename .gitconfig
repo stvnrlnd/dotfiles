@@ -1,7 +1,7 @@
 [user]
 	name = Steven Roland
 	email = steven@mojave.io
-	signingkey = 567ECC532F75FAD0250CD953BDABEE5C249DDCB9
+	signingkey = DD7D5A2CA2E7F083E0C71233CA03F5FD501EDD2B
 
 [alias]
 	# View abbreviated SHA, description, and history graph of the latest 20 commits

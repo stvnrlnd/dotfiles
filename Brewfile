@@ -6,7 +6,6 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
@@ -23,11 +22,9 @@ brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
 
 # Development
-brew 'php'
 brew 'php@7.3'
 brew 'composer'
 brew 'imagemagick'
-brew 'mysql'
 brew 'nginx'
 brew 'node'
 brew 'redis'
