@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export GPG_TTY=$(tty)
 
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
