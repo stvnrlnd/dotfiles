@@ -28,7 +28,6 @@ brew 'wp-cli'
 brew 'imagemagick'
 brew 'nginx'
 brew 'node'
-brew 'redis'
 brew 'yarn'
 
 # Apps
