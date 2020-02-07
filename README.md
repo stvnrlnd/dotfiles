@@ -44,6 +44,25 @@ Your Mac is now ready to use!
 
 > Note: you can use a different location than `~/Projects/_resources/dotfiles` if you want. Just make sure you also update the reference in the [`.zshrc`](./.zshrc) file.
 
+## Databases with Docker
+
+This section isn't exactly related, but I've found it useful enough to write down somewhere. 
+
+The databases I frequently use for development/staging/production environments are MySQL and Redis. To set them up
+and use them with Docker, run the following commands:
+
+MySQL 5.7
+```
+docker run --name mysql57 -e MYSQL_ROOT_PASSWORD=secret -d -p 3306:3306 mysql:5.7
+```
+
+Redis 5
+```
+docker run --name redis5 -d -p 6379:6379 redis:5 redis-server --appendonly yes   
+```
+
+Use the `docker start [CONTAINER]` and `docker stop [CONTAINER]` commands to start and stop database containers.
+
 ## Your Own Dotfiles
 
 **Please note that the instructions below assume you already have set up Oh My Zsh so make sure to first [install Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started) before you continue.**
@@ -71,4 +90,4 @@ Enjoy your own Dotfiles!
 
 I first got the idea for starting this project from [Dries Vints](https://github.com/driesvints) and by visiting the [Github does dotfiles](https://dotfiles.github.io/) project. Both [Zach Holman](https://github.com/holman/dotfiles) and [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) were great sources of inspiration. [Sourabh Bajaj](https://twitter.com/sb2nov/)'s [Mac OS X Setup Guide](http://sourabhbajaj.com/mac-setup/) proved to be invaluable. Thanks to [@denysdovhan](https://github.com/denysdovhan) for [their awesome Zsh theme](https://github.com/denysdovhan/spaceship-prompt)! And lastly, I'd like to thank [Maxime Fabre](https://twitter.com/anahkiasen) for [their excellent presentation on Homebrew](https://speakerdeck.com/anahkiasen/a-storm-homebrewin) which made me migrate a lot to a [`Brewfile`](./Brewfile) and [Mackup](https://github.com/lra/mackup).
 
-In general, I'd like to thank every single one who open-sources their dotfiles for their effort to contribute something to the open-source community. Your work means the world! :earth_africa: :heart:
+In general, I'd like to thank every single person who open-sources their dotfiles for their effort to contribute something to the open-source community. Your work means the world! :earth_africa: :heart:
