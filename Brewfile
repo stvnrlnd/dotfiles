@@ -10,6 +10,7 @@ brew 'bash' # Latest Bash version
 brew 'bat' # "cat" on steroids
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
+brew 'git-lfs'
 brew 'gnupg2'
 brew 'grep'
 brew 'httpie'
