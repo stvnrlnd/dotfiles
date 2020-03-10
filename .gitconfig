@@ -4,6 +4,9 @@
 	signingkey = DD7D5A2CA2E7F083E0C71233CA03F5FD501EDD2B
 
 [alias]
+	# Make grep prettier
+	g = grep --break --heading --line-number
+
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
 
