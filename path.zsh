@@ -11,6 +11,8 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/bin:$PATH"
 export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
 
+export PATH="/Users/fox/Projects/_resources/spark-installer:$PATH"
+
 # Make sure coreutils are loaded before system commands
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
