@@ -28,7 +28,7 @@ brew 'composer'
 brew 'wp-cli'
 brew 'imagemagick'
 brew 'nginx'
-brew 'node'
+brew 'node@12'
 brew 'yarn'
 
 # Apps
