@@ -57,12 +57,3 @@ cask 'qlstephen'
 
 # Fonts
 cask 'font-fira-code'
-
-# Mac App Store
-mas 'Pages', id: 409201541
-mas 'Numbers', id: 409203825
-mas 'Keynote', id: 409183694
-mas 'Spark', id: 1176895641
-mas 'iBooks Author', id: 490152466
-mas 'Microsoft To Do', id: 1274495053
-mas 'Microsoft OneNote', id: 784801555
